@@ -84,6 +84,9 @@ require("script-php/connexion_bdd.php");
             case "gestion":
                 include("gestion.php");
                 break;
+            case "commande":
+                include("commandes.php");
+                break;
             }
         }
     ?>

@@ -29,3 +29,4 @@ $client=$requete->fetch();
 
 <button type="button" class="btn btn-primary"><a href="index.php?page=update_infos&id=<?= $client["id_client"]; ?>">Modifier les informations</button>
 <button type="button" class="btn btn-dark"><a href="index.php?page=update_mdp&id=<?= $client["id_client"]; ?>">Modifier le mot de passe</button>
+<button type="button" class="btn btn-primary"><a href="index.php?page=commande&id=<?= $client["id_client"]; ?>">Consulter mes commandes</button>
