@@ -98,3 +98,5 @@ if(in_array($extension,$extensions)){
             }
         }
     }
+
+    if(isset())
